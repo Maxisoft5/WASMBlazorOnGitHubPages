@@ -25,4 +25,4 @@ jobs:
         BRANCH: gh-pages
         FOLDER: release/wwwroot
     - name: Change base-tag in index.html from / to BlazorOnGitHubPages
-      run: sed -i 's/<base href="\/" \/>/<base href="\/BlazorOnGitHubPages\/" \/>/g' release/wwwroot/index.html
+      run: sed -i 's/<base href="\/" \/>/<base href="\/BlazorOnGitHubPages\/" \/>/g' release/wwwroot/index.html 
